@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    background: gray;
+}
+
+#socials ul, ul li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    top: 6px;
+    line-height: 50px;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90vh;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    top: auto;
+}
+
+#socials ul li:hover {
+    background-color: rgba(8, 8, 8, 0.199)
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
